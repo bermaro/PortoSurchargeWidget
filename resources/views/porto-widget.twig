@@ -1,0 +1,7 @@
+{% if item.extraShippingCharge1 > 0 %}
+  <p>🚚 Portoaufschlag 1: {{ item.extraShippingCharge1 | number_format(2, ',', '.') }} €</p>
+{% endif %}
+
+{% if item.extraShippingCharge2 > 0 %}
+  <p>🚚 Portoaufschlag 2: {{ item.extraShippingCharge2 | number_format(2, ',', '.') }} €</p>
+{% endif %}
