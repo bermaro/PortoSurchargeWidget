@@ -1,0 +1,16 @@
+{
+  "name": "PortoSurchargeWidget",
+  "description": "Widget zur Anzeige von Portoaufschlägen 1 und 2 auf Artikelseiten.",
+  "namespace": "PortoSurchargeWidget",
+  "author": "Bernd",
+  "type": "plugin",
+  "serviceProvider": "PortoSurchargeWidget\\Widgets\\PortoWidgetServiceProvider",
+  "views": [
+    "resources/views"
+  ],
+  "translation": [
+    "resources/lang"
+  ],
+  "require": [],
+  "pluginSetCompatible": true
+}
